@@ -14,10 +14,10 @@ public class HelloController {
         return "hola bienvenido al ejercicio 4 api Rest" + message;
     }
 
-    @GetMapping("/prueba")
+    @GetMapping("/")
     public String prueba(){
         System.out.println(message);
-        return "hola bienvenido al ejercicio 4 api Rest" + message;
+        return " bienvenido al ejercicio 4 api Rest" + message;
     }
 
 
